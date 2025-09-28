@@ -1,13 +1,12 @@
 class MyFirstProgram {
 	public static void main(String[] args) {
 	MySecondClass o = new MySecondClass(0,0);
-	int i,j;
 	for(int i = 1; i <= 8; i++) {
 		for(j = 1; j <= 8; j++) {
-			o.setFisrtNumber(i);
-			o.setSecondNumber(j);
+			o.setNumber(i);
+			o.setNumber(j);
 			System.out.print(o.multiplyNumbers());
-			System.out.print(" ")
+			System.out.print(" ");
 	}
 	System.out.println();
 	}
@@ -18,7 +17,7 @@ class MySecondClass {
 	private int Number1;
 	private int Number2;
 
-	public MySecondClass(int int Number1, int Number2) {
+	public MySecondClass(int Number1, int Number2) {
 		this.Number1 = Number1;
 		this.Number2 = Number2;
  }
