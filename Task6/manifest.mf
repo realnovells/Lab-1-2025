@@ -1,3 +1,4 @@
 Manifest-Version: 1.0
-Created-By: Фамилия_Имя
+Created-By: Зорин Дмитрий 6201-120303D
 Main-Class: MyFirstProgram
+
